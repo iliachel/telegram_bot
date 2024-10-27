@@ -11,7 +11,7 @@ path = 'data.xlsx'
 wb = load_workbook(filename=path)
 ws = wb.get_sheet_by_name('data')
 
-API_TOKEN = '6162485968:AAEMRUmRJ-uyReEgyaEjvoi0K9Fa4uE1XpQ'
+
 ADMIN1 = 337667307
 ADMIN2 = 413981336
 
