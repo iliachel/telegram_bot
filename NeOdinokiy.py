@@ -11,9 +11,9 @@ path = 'data.xlsx'
 wb = load_workbook(filename=path)
 ws = wb.get_sheet_by_name('data')
 
-
-ADMIN1 = 337667307
-ADMIN2 = 413981336
+API_TOKEN = 'YourChatBotToken'
+ADMIN1 = YouFirstAdminID
+ADMIN2 = YouFirstAdminID
 
 
 kb = types.ReplyKeyboardMarkup(resize_keyboard=True)
